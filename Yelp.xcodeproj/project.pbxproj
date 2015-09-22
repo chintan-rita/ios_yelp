@@ -15,6 +15,9 @@
 		8916B5E01BB0EDCF00EA979C /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916B5DF1BB0EDCF00EA979C /* BusinessesViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		8916B5E21BB0EDF800EA979C /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916B5E11BB0EDF700EA979C /* YelpClient.swift */; settings = {ASSET_TAGS = (); }; };
 		8916B5E41BB0F09E00EA979C /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8916B5E31BB0F09E00EA979C /* BusinessCell.swift */; settings = {ASSET_TAGS = (); }; };
+		89C8EA321BB10AAE000EB724 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8EA311BB10AAE000EB724 /* FilterViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		89C8EA381BB11567000EB724 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8EA371BB11567000EB724 /* SwitchCell.swift */; settings = {ASSET_TAGS = (); }; };
+		89C8EA3A1BB115D9000EB724 /* CheckboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C8EA391BB115D9000EB724 /* CheckboxCell.swift */; settings = {ASSET_TAGS = (); }; };
 		93E8D16A1039CB18A233BD3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D033C3290680D5A61C82094E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		8916B5DF1BB0EDCF00EA979C /* BusinessesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
 		8916B5E11BB0EDF700EA979C /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
 		8916B5E31BB0F09E00EA979C /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
+		89C8EA311BB10AAE000EB724 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		89C8EA371BB11567000EB724 /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		89C8EA391BB115D9000EB724 /* CheckboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxCell.swift; sourceTree = "<group>"; };
 		D033C3290680D5A61C82094E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +82,8 @@
 		8916B5C91BB0ED5100EA979C /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				89C8EA301BB10A59000EB724 /* Cells */,
+				89C8EA2F1BB10A3C000EB724 /* View Controllers */,
 				8916B5CA1BB0ED5100EA979C /* AppDelegate.swift */,
 				8916B5CE1BB0ED5100EA979C /* Main.storyboard */,
 				8916B5D11BB0ED5100EA979C /* Assets.xcassets */,
@@ -83,11 +91,28 @@
 				8916B5D61BB0ED5100EA979C /* Info.plist */,
 				8916B5DC1BB0ED8500EA979C /* Yelp-Bridging-Header.h */,
 				8916B5DD1BB0EDA100EA979C /* Business.swift */,
-				8916B5DF1BB0EDCF00EA979C /* BusinessesViewController.swift */,
 				8916B5E11BB0EDF700EA979C /* YelpClient.swift */,
-				8916B5E31BB0F09E00EA979C /* BusinessCell.swift */,
 			);
 			path = Yelp;
+			sourceTree = "<group>";
+		};
+		89C8EA2F1BB10A3C000EB724 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8916B5DF1BB0EDCF00EA979C /* BusinessesViewController.swift */,
+				89C8EA311BB10AAE000EB724 /* FilterViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		89C8EA301BB10A59000EB724 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8916B5E31BB0F09E00EA979C /* BusinessCell.swift */,
+				89C8EA371BB11567000EB724 /* SwitchCell.swift */,
+				89C8EA391BB115D9000EB724 /* CheckboxCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		A44ED70D0740F2182A290FFE /* Pods */ = {
@@ -205,6 +230,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C8EA321BB10AAE000EB724 /* FilterViewController.swift in Sources */,
+				89C8EA3A1BB115D9000EB724 /* CheckboxCell.swift in Sources */,
+				89C8EA381BB11567000EB724 /* SwitchCell.swift in Sources */,
 				8916B5E41BB0F09E00EA979C /* BusinessCell.swift in Sources */,
 				8916B5E21BB0EDF800EA979C /* YelpClient.swift in Sources */,
 				8916B5DE1BB0EDA100EA979C /* Business.swift in Sources */,
